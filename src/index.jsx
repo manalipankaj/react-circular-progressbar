@@ -14,7 +14,7 @@ class CircularProgressbar extends React.Component {
     super(props);
 
     this.state = {
-      percentage: props.initialAnimation ? 0 : props.percentage,
+      percentage: props.initialAnimation ? 100 : props.percentage,
     };
   }
 
